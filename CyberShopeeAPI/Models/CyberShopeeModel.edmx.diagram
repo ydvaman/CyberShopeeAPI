@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="225ed3a9b9704e4c9d1b7eb9954ec2f9" Name="Diagram1">
+        <EntityTypeShape EntityType="CyberShopeeModel.Category" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.Customer" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.OrderDetail" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.Order" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CyberShopeeModel.ShoppingCart" Width="1.5" PointX="8.25" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="CyberShopeeModel.FK__Products__Catego__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__Orders__Username__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__ShoppingC__Usern__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__OrderDeta__Order__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__OrderDeta__Produ__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="CyberShopeeModel.FK__ShoppingC__Produ__33D4B598" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
