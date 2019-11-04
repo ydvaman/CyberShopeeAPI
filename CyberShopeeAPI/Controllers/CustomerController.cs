@@ -21,6 +21,22 @@ namespace CyberShopeeAPI.Controllers
             return NotFound();
         }
 
+        [HttpPost]
+        // Sign UP method
+        public IHttpActionResult PostSignUp([FromBody]Customer customer)
+        {
+            using (CyberShopeeEntities newCustEntity = new CyberShopeeEntities())
+            {
+                if(customer != null)
+                {
+                    newCustEntity.Customers.Add(customer);
+                    newCustEntity.SaveChanges();
+                    return Ok();
+
+                }
+                return NotFound();                
+            }
+        }
 
     }
 }
